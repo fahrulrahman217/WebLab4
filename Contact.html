@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Fahrul Rahman</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Fahrul Rahman</h1>
+        <p>Mahasiswa Teknik Informatika</p>
+      </header>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html" class="active">Contact</a>
+      </nav>
+
+      <section id="hero" class="hero-contact">
+        <h1>Contact Me</h1>
+        <p>
+          Silakan isi formulir di bawah ini untuk mengirimkan pesan atau
+          pertanyaan.
+        </p>
+      </section>
+
+      <section id="wrapper">
+        <main id="main" class="main-full">
+          <section class="contact-layout">
+            <div class="contact-info">
+              <h2>Informasi Kontak</h2>
+              <p><strong>Nama:</strong> Fahrul Rahman</p>
+              <p><strong>Program Studi:</strong> Teknik Informatika</p>
+              <p><strong>Universitas:</strong> Universitas Pelita Bangsa</p>
+              <p>
+                Gunakan formulir ini untuk menyampaikan pertanyaan, saran, atau
+                pesan.
+              </p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+              <h2>Formulir Pesan</h2>
+
+              <label for="nama">Nama Lengkap</label>
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan nama lengkap"
+                required
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="nama@email.com"
+                required
+              />
+
+              <label for="subjek">Subjek</label>
+              <input
+                type="text"
+                id="subjek"
+                name="subjek"
+                placeholder="Masukkan subjek pesan"
+              />
+
+              <label for="message">Message / Pesan</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Tuliskan pesan Anda..."
+                required
+              ></textarea>
+
+              <button type="submit" class="btn btn-large">Kirim Pesan</button>
+              <p class="form-note">
+                Catatan: formulir ini merupakan contoh tampilan front-end. Pesan
+                belum dikirim ke email atau server.
+              </p>
+            </form>
+          </section>
+        </main>
+      </section>
+
+      <footer>
+        <p>
+          &copy; 2026 Fahrul Rahman | Teknik Informatika - Universitas Pelita
+          Bangsa
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
