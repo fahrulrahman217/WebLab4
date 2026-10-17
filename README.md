@@ -23,7 +23,7 @@
 Penjelasan
 
 - Header
-  Bagian header berfungsi menampilkan identitas pemilik website, yaitu Fahrul Rahman sebagai mahasiswa Teknik Informatika. Elemen <h1> digunakan untuk menampilkan nama, sedangkan <p> digunakan untuk menampilkan keterangan atau deskripsi singkat.
+  Bagian header berfungsi menampilkan identitas pemilik website, yaitu Fahrul Rahman sebagai mahasiswa Teknik Informatika. Elemen h1> digunakan untuk menampilkan nama, sedangkan <p> digunakan untuk menampilkan keterangan atau deskripsi singkat.
 - Navigasi
   Navigasi digunakan untuk memudahkan pengunjung berpindah dari satu halaman ke halaman lainnya. Menu Home menuju halaman utama, About menuju halaman profil, dan Contact menuju halaman kontak. Class active menandakan bahwa halaman About sedang dibuka.
 - Hero About Me
@@ -37,3 +37,8 @@ Penjelasan
 2. Desain CSS: mempelajari pengaturan warna, tipografi, navigasi, dan tata letak.
 3. Program Dasar: mempelajari logika pemrograman melalui program sederhana.
    Class row digunakan untuk mengelompokkan kartu, sedangkan class box portfolio-card mengatur tampilan setiap kartu portofolio menggunakan CSS.
+
+- Tujuan Saya
+  Bagian ini menjelaskan tujuan pemilik website dalam mengembangkan keterampilan di bidang teknologi informasi. Tombol Hubungi Saya mengarahkan pengunjung ke halaman Contact agar dapat melihat informasi kontak atau mengisi formulir pesan
+- Footer
+  Footer merupakan bagian paling bawah website yang menampilkan informasi hak cipta, nama pemilik website, jurusan, dan universitas. Simbol &copy digunakan untuk menampilkan simbol ©.
