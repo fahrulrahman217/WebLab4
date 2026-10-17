@@ -42,3 +42,24 @@ Penjelasan
   Bagian ini menjelaskan tujuan pemilik website dalam mengembangkan keterampilan di bidang teknologi informasi. Tombol Hubungi Saya mengarahkan pengunjung ke halaman Contact agar dapat melihat informasi kontak atau mengisi formulir pesan
 - Footer
   Footer merupakan bagian paling bawah website yang menampilkan informasi hak cipta, nama pemilik website, jurusan, dan universitas. Simbol &copy digunakan untuk menampilkan simbol ©.
+
+#### 2. Tambahkan layout untuk menu Contact
+
+![Gambar 2](ScreenShots/hero.png)
+
+![Gambar 2](ScreenShots/formulir.png)
+
+![Gambar 2](ScreenShots/hasil_akhir.png)
+
+![Gambar 2](ScreenShots/tombol_kirim.png)
+
+Penjelasan
+
+- Hero
+  Bagian Hero menampilkan judul dan pengantar singkat pada halaman Contact agar pengunjung mengetahui bahwa halaman tersebut digunakan untuk menghubungi pemilik website.
+- Informasi Kontak
+  Bagian ini berisi informasi kontak pemilik website, seperti alamat email atau informasi lain yang dapat digunakan pengunjung untuk menghubungi pemilik website.
+- Formulir Kontak
+  Formulir kontak digunakan agar pengunjung dapat mengisi data seperti nama, email, dan pesan yang ingin disampaikan.
+- Tombol Kirim
+  Tombol Kirim digunakan untuk mengirim pesan yang telah diisi pada formulir. Agar pesan benar-benar terkirim, tombol ini perlu dihubungkan dengan fungsi pemrosesan, misalnya menggunakan JavaScript atau layanan backend.
